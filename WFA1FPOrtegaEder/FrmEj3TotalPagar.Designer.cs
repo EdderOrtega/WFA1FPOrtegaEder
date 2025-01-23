@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             btnRegresar = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // btnRegresar
@@ -43,12 +44,22 @@
             btnRegresar.UseVisualStyleBackColor = false;
             btnRegresar.Click += btnRegresar_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(345, 162);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 1;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // FrmEj3TotalPagar
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(btnRegresar);
             Name = "FrmEj3TotalPagar";
             Text = "FrmEj3TotalPagar";
@@ -58,5 +69,6 @@
         #endregion
 
         private Button btnRegresar;
+        private Button button1;
     }
 }
