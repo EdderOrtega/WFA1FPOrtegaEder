@@ -128,7 +128,7 @@
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightCyan;
-            ClientSize = new Size(1099, 701);
+            ClientSize = new Size(1178, 744);
             Controls.Add(btnSalir);
             Controls.Add(btnTotalAPagar);
             Controls.Add(btnParque);
